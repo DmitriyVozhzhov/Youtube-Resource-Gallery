@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Youtube Resource Gallery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div>
+				<h1 class="headline"> My Youtube Resource Gallery</h1>
+				<p>Лучший путь что-то выучить это добавить сюда обучающий видос и посмотреть его!!!</p>
+			</div>
+			<form >
+				<label for="videoId">Type here Youtube Video Id</label>
+				<input type="text" name="videoId" id="videoId" placeholder="6YugzWHxJAE" value="6YugzWHxJAE">
+				<button onclick="saveVideo(event)">Сохранить видос </button>
+			</form>
+		</div>
+			<ul id="videosContainer"></ul>
+
+		
+	</div>
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
